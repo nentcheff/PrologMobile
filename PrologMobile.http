@@ -1,0 +1,11 @@
+@PrologMobile_HostAddress = http://localhost:5082
+
+GET {{PrologMobile_HostAddress}}/openapi/v1.json
+Accept: application/json
+
+###
+
+GET {{PrologMobile_HostAddress}}/aggregate/
+Accept: application/json
+
+###
